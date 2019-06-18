@@ -5,13 +5,13 @@ import android.os.Looper;
 
 import com.example.androidalldemojava.mvp.interfaces.ILoginPresenter;
 import com.example.androidalldemojava.mvp.interfaces.ILoginView;
-import com.example.androidalldemojava.mvp.interfaces.IUser;
+import com.example.androidalldemojava.mvp.interfaces.IUserModel;
 import com.example.androidalldemojava.mvp.model.UserModel;
 
 public class LoginPresenterCompl implements ILoginPresenter {
 
     ILoginView iLoginView;
-    IUser user;
+    IUserModel user;
     Handler handler;
 
     public LoginPresenterCompl(ILoginView iLoginView)

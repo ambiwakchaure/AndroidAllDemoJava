@@ -1,6 +1,6 @@
 package com.example.androidalldemojava.mvp.interfaces;
 
-public interface IUser {
+public interface IUserModel {
 
     String getName();
     String getPasswd();

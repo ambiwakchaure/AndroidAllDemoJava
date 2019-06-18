@@ -1,8 +1,8 @@
 package com.example.androidalldemojava.mvp.model;
 
-import com.example.androidalldemojava.mvp.interfaces.IUser;
+import com.example.androidalldemojava.mvp.interfaces.IUserModel;
 
-public class UserModel implements IUser {
+public class UserModel implements IUserModel {
 
     String name;
     String passwd;
