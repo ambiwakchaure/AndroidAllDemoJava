@@ -22,6 +22,7 @@ public class MvpMainActivity extends AppCompatActivity implements ILoginView, Vi
     private Button btnClear;
     private ILoginPresenter loginPresenter;
     private ProgressBar progressBar;
+    //amol wakchaure
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
