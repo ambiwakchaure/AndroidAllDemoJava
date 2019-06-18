@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.androidalldemojava.R;
@@ -22,7 +23,9 @@ public class MvpMainActivity extends AppCompatActivity implements ILoginView, Vi
     private Button btnClear;
     private ILoginPresenter loginPresenter;
     private ProgressBar progressBar;
+    private TextView textView;
     //amol wakchaure
+    //sandipgit com
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
