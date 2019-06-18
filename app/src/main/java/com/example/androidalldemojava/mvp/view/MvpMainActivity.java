@@ -24,6 +24,7 @@ public class MvpMainActivity extends AppCompatActivity implements ILoginView, Vi
     private ILoginPresenter loginPresenter;
     private ProgressBar progressBar;
     private TextView textView;
+    private TextView textViewxx;
     //amol wakchaure
     //sandipgit com
 
